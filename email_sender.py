@@ -11,6 +11,6 @@ email.set_content('i am a python master')
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
 	smtp.ehlo()
 	smtp.starttls()
-	smtp.login('amitksingh742@gmail.com', '1.Billion')
+	smtp.login('amitksingh742@gmail.com', '123456789')
 	smtp.send_message(email)
 	print('all good!')
